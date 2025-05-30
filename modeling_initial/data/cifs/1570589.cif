@@ -1,0 +1,817 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-02-04 13:27:09 +0200 (Sun, 04 Feb 2024) $
+#$Revision: 289399 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/57/05/1570589.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1570589
+loop_
+_publ_author_name
+'Rib&#xf3;, Eduard Garrido'
+'Mao, Zhiwei'
+'Hirschi, Jacob S.'
+'Linsday, Taylor'
+'Bach, Karlie'
+'Walter, Eric D.'
+'Simons, Casey R.'
+'Zuehlsdorff, Tim J.'
+'Nyman, May'
+_publ_section_title
+;
+ Implementing vanadium peroxides as direct air carbon capture materials.
+;
+_journal_issue                   5
+_journal_name_full               'Chemical science'
+_journal_page_first              1700
+_journal_page_last               1713
+_journal_paper_doi               10.1039/d3sc05381d
+_journal_volume                  15
+_journal_year                    2024
+_chemical_formula_moiety         'Cs3 O11 V'
+_chemical_formula_sum            'Cs3 O11 V'
+_chemical_formula_weight         625.67
+_chemical_name_common            'Cesium tetraperoxovanadate'
+_chemical_name_systematic        'Cesium tetraperoxovanadate trihydrate'
+_chemical_properties_physical    Air-sensitive,Moisture-sensitive,Hygroscopic
+_space_group_crystal_system      monoclinic
+_space_group_IT_number           14
+_space_group_name_Hall           '-P 2yn'
+_space_group_name_H-M_alt        'P 1 21/n 1'
+_atom_sites_solution_primary     direct
+_audit_creation_date             2023-03-07
+_audit_creation_method
+;
+Olex2 1.5
+(compiled 2022.04.07 svn.rca3783a0 for OlexSys, GUI svn.r6498)
+;
+_audit_update_record
+;
+2023-05-19 deposited with the CCDC.	2023-11-23 downloaded from the CCDC.
+;
+_cell_angle_alpha                90
+_cell_angle_beta                 91.359(4)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   8.4013(3)
+_cell_length_b                   12.0178(4)
+_cell_length_c                   11.5178(5)
+_cell_measurement_reflns_used    7360
+_cell_measurement_temperature    149.99(10)
+_cell_measurement_theta_max      32.2450
+_cell_measurement_theta_min      2.9320
+_cell_volume                     1162.57(8)
+_computing_cell_refinement       'CrysAlisPro 1.171.41.121a (Rigaku OD, 2021)'
+_computing_data_collection       'CrysAlisPro 1.171.41.121a (Rigaku OD, 2021)'
+_computing_data_reduction        'CrysAlisPro 1.171.41.121a (Rigaku OD, 2021)'
+_computing_molecular_graphics    'Olex2 1.5 (Dolomanov et al., 2009)'
+_computing_publication_material  'Olex2 1.5 (Dolomanov et al., 2009)'
+_computing_structure_refinement  'SHELXL 2018/3 (Sheldrick, 2015)'
+_computing_structure_solution    'SHELXS  (Sheldrick, 2008)'
+_diffrn_ambient_environment      N~2~
+_diffrn_ambient_temperature      149.99(10)
+_diffrn_detector                 'Hybrid Pixel Array Detector'
+_diffrn_detector_area_resol_mean 10.0000
+_diffrn_detector_type            HyPix
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 0.829
+_diffrn_measurement_details
+;
+List of Runs (angles in degrees, time in seconds):
+
+  # Type    Start    End  Width  t~exp~   \w     \q     \k     \f   Frames
+#--------------------------------------------------------------------------
+  1  \w    -17.00  64.00   0.50   60.00    --  -10.04  27.00  71.00  162
+  2  \w    -85.00   2.00   0.50   60.00    --  -10.04 -27.00 -91.00  174
+  3  \w     -3.00  32.00   0.50   60.00    --    7.86  77.00  90.00   70
+  4  \w     -4.00  21.00   0.50   60.00    --  -10.04 -99.00  60.00   50
+  5  \w    -16.00  13.00   0.50   60.00    --  -10.04 -99.00   0.00   58
+  6  \w    -36.00   2.00   0.50   60.00    --  -10.04 -77.00-150.00   76
+;
+_diffrn_measurement_device       'four-circle diffractometer'
+_diffrn_measurement_device_type  'XtaLAB Synergy, Dualflex, HyPix'
+_diffrn_measurement_method       '\w scans'
+_diffrn_orient_matrix_type
+'CrysAlisPro convention (1999,Acta A55,543-557)'
+_diffrn_orient_matrix_UB_11      -0.0789794000
+_diffrn_orient_matrix_UB_12      -0.0203294000
+_diffrn_orient_matrix_UB_13      0.0036066000
+_diffrn_orient_matrix_UB_21      0.0053478000
+_diffrn_orient_matrix_UB_22      0.0035624000
+_diffrn_orient_matrix_UB_23      0.0614341000
+_diffrn_orient_matrix_UB_31      -0.0293667000
+_diffrn_orient_matrix_UB_32      0.0553115000
+_diffrn_orient_matrix_UB_33      -0.0026355000
+_diffrn_radiation_monochromator  mirror
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0503
+_diffrn_reflns_av_unetI/netI     0.0447
+_diffrn_reflns_Laue_measured_fraction_full 1.000
+_diffrn_reflns_Laue_measured_fraction_max 0.829
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_h_min       -11
+_diffrn_reflns_limit_k_max       13
+_diffrn_reflns_limit_k_min       -17
+_diffrn_reflns_limit_l_max       16
+_diffrn_reflns_limit_l_min       -13
+_diffrn_reflns_number            11316
+_diffrn_reflns_point_group_measured_fraction_full 1.000
+_diffrn_reflns_point_group_measured_fraction_max 0.829
+_diffrn_reflns_theta_full        25.242
+_diffrn_reflns_theta_max         32.323
+_diffrn_reflns_theta_min         2.450
+_diffrn_source                   'micro-focus sealed X-ray tube'
+_diffrn_source_type              'PhotonJet (Mo) X-ray Source'
+_exptl_absorpt_coefficient_mu    10.149
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  0.52979
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details
+;
+CrysAlisPro 1.171.41.121a (Rigaku Oxford Diffraction, 2021)
+Empirical absorption correction using spherical harmonics,
+implemented in SCALE3 ABSPACK scaling algorithm.
+;
+_exptl_crystal_colour            'clear dark violet'
+_exptl_crystal_colour_lustre     clear
+_exptl_crystal_colour_modifier   dark
+_exptl_crystal_colour_primary    violet
+_exptl_crystal_density_diffrn    3.575
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             1104
+_exptl_crystal_recrystallization_method 'Vapour deposition'
+_exptl_crystal_size_max          0.158
+_exptl_crystal_size_mid          0.081
+_exptl_crystal_size_min          0.033
+_refine_diff_density_max         1.919
+_refine_diff_density_min         -1.291
+_refine_diff_density_rms         0.295
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.018
+_refine_ls_hydrogen_treatment    undef
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     136
+_refine_ls_number_reflns         3429
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.018
+_refine_ls_R_factor_all          0.0419
+_refine_ls_R_factor_gt           0.0320
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0473P)^2^] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0816
+_refine_ls_wR_factor_ref         0.0853
+_reflns_Friedel_coverage         0.000
+_reflns_number_gt                2850
+_reflns_number_total             3429
+_reflns_threshold_expression     'I > 2\s(I)'
+_cod_data_source_file            d3sc05381d2.cif
+_cod_data_source_block           cs3vo8_morun_auto
+_cod_depositor_comments
+'Adding full bibliography for 1570589--1570590.cif.'
+_cod_database_code               1570589
+_shelx_shelxl_version_number     2018/3
+_chemical_oxdiff_formula         'Cs3 V O8'
+_chemical_oxdiff_usercomment     'Small purple thin rod'
+_shelx_space_group_comment
+;
+The symmetry employed for this shelxl refinement is uniquely defined
+by the following loop, which should always be used as a source of
+symmetry information in preference to the above space-group names.
+They are only intended as comments.
+;
+_shelx_estimated_absorpt_t_max   0.731
+_shelx_estimated_absorpt_t_min   0.297
+_olex2_refinement_description
+;
+;
+_shelx_res_file
+;
+TITL Cs3VO8_Mo run_auto in P21/n #14
+    cs3vo8_morun_auto.res
+    created by SHELXL-2018/3 at 15:09:34 on 07-Mar-2023
+REM reset to P21/n #14
+CELL 0.71073 8.401281 12.017847 11.517818 90 91.3587 90
+ZERR 4 0.000318 0.000432 0.000466 0 0.0035 0
+LATT 1
+SYMM 0.5-X,0.5+Y,0.5-Z
+SFAC Cs O V
+UNIT 12 44 4
+
+L.S. 10
+PLAN  10
+SIZE 0.158 0.081 0.033
+TEMP -123
+CONF
+MORE -1
+fmap 2 53
+acta
+REM <olex2.extras>
+REM <HklSrc "%.\\Cs3VO8_Mo%20run_auto.hkl">
+REM </olex2.extras>
+
+WGHT    0.047300
+FVAR       0.09383
+CS1   1    0.239690    0.924002    0.509378    11.00000    0.01621    0.01608 =
+         0.01954   -0.00181   -0.00326   -0.00056
+CS2   1    0.046645    0.913652    0.845116    11.00000    0.01516    0.01368 =
+         0.01616    0.00081    0.00263    0.00157
+CS3   1   -0.060971    0.569541    0.661843    11.00000    0.01638    0.01347 =
+         0.01776   -0.00185    0.00111   -0.00016
+V4    3    0.007481    0.760302    0.246971    11.00000    0.00907    0.01185 =
+         0.01027   -0.00033    0.00001    0.00106
+O4    2    0.093984    0.847273    0.122416    11.00000    0.01564    0.01432 =
+         0.01567   -0.00051    0.00101   -0.00422
+O5    2   -0.082006    0.671237    0.367297    11.00000    0.01734    0.02284 =
+         0.01117    0.00262    0.00024   -0.00023
+O6    2   -0.136597    0.638275    0.249998    11.00000    0.01809    0.02505 =
+         0.02100    0.00374   -0.00068   -0.00632
+O8    2   -0.020048    0.763249    0.079413    11.00000    0.01924    0.01812 =
+         0.01418   -0.00324    0.00055   -0.00219
+O9    2    0.217199    0.750162    0.318766    11.00000    0.01545    0.01746 =
+         0.01900   -0.00168   -0.00283   -0.00121
+O1    2    0.184040    0.657743    0.235709    11.00000    0.01327    0.01590 =
+         0.02123   -0.00137    0.00250    0.00198
+O3    2   -0.165318    0.865738    0.258402    11.00000    0.01597    0.01967 =
+         0.01474   -0.00054   -0.00101    0.00451
+O2    2   -0.028771    0.893476    0.336142    11.00000    0.02159    0.02186 =
+         0.01809   -0.00556   -0.00298    0.00327
+O10   2   -0.270589    0.897717    0.007486    11.00000    0.02103    0.01811 =
+         0.01528   -0.00178   -0.00398    0.00147
+O7    2    0.087118    0.635093   -0.095226    11.00000    0.01617    0.02175 =
+         0.02534   -0.00417    0.00112    0.00145
+O11   2    0.419584    0.672991    0.081319    11.00000    0.02074    0.02878 =
+         0.01865   -0.00076    0.00121    0.00271
+HKLF 4
+
+
+
+
+REM  Cs3VO8_Mo run_auto in P21/n #14
+REM wR2 = 0.0853, GooF = S = 1.018, Restrained GooF = 1.018 for all data
+REM R1 = 0.0320 for 2850 Fo > 4sig(Fo) and 0.0419 for all 3429 data
+REM 136 parameters refined using 0 restraints
+
+END
+
+WGHT      0.0470      0.0000
+
+REM Highest difference peak  1.919,  deepest hole -1.291,  1-sigma level  0.295
+Q1    1   0.3064  0.9277  0.4525  11.00000  0.05    1.92
+Q2    1  -0.1438  0.5738  0.7389  11.00000  0.05    1.49
+Q3    1  -0.0453  0.9084  0.9214  11.00000  0.05    1.41
+Q4    1   0.0620  0.9403  0.7963  11.00000  0.05    1.41
+Q5    1   0.1480  0.9262  0.5836  11.00000  0.05    1.37
+Q6    1   0.0340  0.5735  0.5847  11.00000  0.05    1.29
+Q7    1   0.1315  0.9005  0.7671  11.00000  0.05    1.19
+Q8    1  -0.0428  0.6174  0.6392  11.00000  0.05    1.19
+Q9    1  -0.3002  0.8531 -0.0343  11.00000  0.05    1.17
+Q10   1   0.0721  0.6671 -0.0256  11.00000  0.05    1.11
+;
+_shelx_res_checksum              77952
+_olex2_submission_special_instructions 'No special instructions were received'
+_oxdiff_exptl_absorpt_empirical_details
+;
+Empirical correction (ABSPACK) includes:
+- Absorption correction using spherical harmonics
+- Frame scaling
+;
+_oxdiff_exptl_absorpt_empirical_full_max 4.498
+_oxdiff_exptl_absorpt_empirical_full_min 0.272
+loop_
+_space_group_symop_operation_xyz
+'x, y, z'
+'-x+1/2, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x-1/2, -y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_site_symmetry_order
+_atom_site_calc_flag
+_atom_site_refinement_flags_posn
+_atom_site_refinement_flags_adp
+_atom_site_refinement_flags_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Cs1 Cs 0.23969(3) 0.92400(2) 0.50938(2) 0.01734(9) Uani 1 1 d . . . . .
+Cs2 Cs 0.04664(3) 0.91365(2) 0.84512(2) 0.01497(8) Uani 1 1 d . . . . .
+Cs3 Cs -0.06097(3) 0.56954(2) 0.66184(2) 0.01586(8) Uani 1 1 d . . . . .
+V4 V 0.00748(7) 0.76030(5) 0.24697(5) 0.01040(14) Uani 1 1 d . . . . .
+O4 O 0.0940(3) 0.8473(2) 0.1224(3) 0.0152(6) Uani 1 1 d . . . . .
+O5 O -0.0820(4) 0.6712(2) 0.3673(3) 0.0171(6) Uani 1 1 d . . . . .
+O6 O -0.1366(4) 0.6383(2) 0.2500(3) 0.0214(7) Uani 1 1 d . . . . .
+O8 O -0.0200(4) 0.7632(2) 0.0794(3) 0.0172(6) Uani 1 1 d . . . . .
+O9 O 0.2172(3) 0.7502(2) 0.3188(3) 0.0174(6) Uani 1 1 d . . . . .
+O1 O 0.1840(3) 0.6577(2) 0.2357(3) 0.0168(6) Uani 1 1 d . . . . .
+O3 O -0.1653(3) 0.8657(2) 0.2584(3) 0.0168(6) Uani 1 1 d . . . . .
+O2 O -0.0288(4) 0.8935(2) 0.3361(3) 0.0206(6) Uani 1 1 d . . . . .
+O10 O -0.2706(3) 0.8977(3) 0.0075(2) 0.0182(6) Uani 1 1 d . . . . .
+O7 O 0.0871(4) 0.6351(2) -0.0952(3) 0.0211(7) Uani 1 1 d . . . . .
+O11 O 0.4196(4) 0.6730(3) 0.0813(3) 0.0227(7) Uani 1 1 d . . . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Cs1 0.01621(15) 0.01608(15) 0.01954(16) -0.00181(9) -0.00326(11) -0.00056(8)
+Cs2 0.01516(14) 0.01368(13) 0.01616(15) 0.00081(8) 0.00263(10) 0.00157(8)
+Cs3 0.01638(14) 0.01347(13) 0.01776(15) -0.00185(8) 0.00111(11) -0.00016(8)
+V4 0.0091(3) 0.0118(3) 0.0103(3) -0.0003(2) 0.0000(3) 0.0011(2)
+O4 0.0156(14) 0.0143(13) 0.0157(15) -0.0005(10) 0.0010(12) -0.0042(10)
+O5 0.0173(15) 0.0228(14) 0.0112(15) 0.0026(11) 0.0002(12) -0.0002(11)
+O6 0.0181(16) 0.0250(15) 0.0210(17) 0.0037(12) -0.0007(13) -0.0063(12)
+O8 0.0192(15) 0.0181(14) 0.0142(15) -0.0032(11) 0.0006(12) -0.0022(11)
+O9 0.0155(15) 0.0175(14) 0.0190(16) -0.0017(11) -0.0028(12) -0.0012(10)
+O1 0.0133(14) 0.0159(14) 0.0212(16) -0.0014(11) 0.0025(12) 0.0020(10)
+O3 0.0160(15) 0.0197(14) 0.0147(15) -0.0005(11) -0.0010(12) 0.0045(11)
+O2 0.0216(17) 0.0219(15) 0.0181(16) -0.0056(12) -0.0030(13) 0.0033(12)
+O10 0.0210(16) 0.0181(14) 0.0153(16) -0.0018(10) -0.0040(13) 0.0015(11)
+O7 0.0162(16) 0.0217(15) 0.0253(18) -0.0042(12) 0.0011(13) 0.0014(11)
+O11 0.0207(17) 0.0288(16) 0.0187(17) -0.0008(12) 0.0012(13) 0.0027(12)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Cs Cs -0.3680 2.1192 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+V V 0.3005 0.5294 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+V4 Cs1 V4 118.411(7) . 4_676 ?
+O6 Cs1 V4 135.10(6) 4_676 . ?
+O6 Cs1 V4 25.15(5) 4_676 4_676 ?
+O6 Cs1 O8 51.61(8) 4_676 4_676 ?
+O6 Cs1 O9 120.39(8) 4_676 . ?
+O6 Cs1 O3 64.70(7) 4_676 3_576 ?
+O6 Cs1 O2 81.41(8) 4_676 3_576 ?
+O6 Cs1 O7 76.14(8) 4_676 2 ?
+O6 Cs1 O7 89.63(8) 4_676 4_676 ?
+O6 Cs1 O11 128.08(8) 4_676 2 ?
+O6 Cs1 O11 86.73(9) 4_676 4_576 ?
+O8 Cs1 V4 26.46(5) 4_676 4_676 ?
+O8 Cs1 V4 98.01(6) 4_676 . ?
+O8 Cs1 O3 114.87(7) 4_676 3_576 ?
+O8 Cs1 O2 132.96(8) 4_676 3_576 ?
+O8 Cs1 O7 50.11(7) 4_676 4_676 ?
+O8 Cs1 O11 162.60(8) 4_676 2 ?
+O9 Cs1 V4 97.67(6) . 4_676 ?
+O9 Cs1 V4 26.89(6) . . ?
+O9 Cs1 O8 73.67(8) . 4_676 ?
+O9 Cs1 O3 166.82(7) . 3_576 ?
+O9 Cs1 O2 144.01(8) . 3_576 ?
+O9 Cs1 O7 67.89(8) . 4_676 ?
+O9 Cs1 O7 145.24(8) . 2 ?
+O9 Cs1 O11 83.90(8) . 4_576 ?
+O9 Cs1 O11 111.30(8) . 2 ?
+O3 Cs1 V4 140.59(5) 3_576 . ?
+O3 Cs1 V4 89.21(5) 3_576 4_676 ?
+O2 Cs1 V4 26.62(5) . . ?
+O2 Cs1 V4 117.40(6) 3_576 . ?
+O2 Cs1 V4 106.53(6) 3_576 4_676 ?
+O2 Cs1 V4 139.67(6) . 4_676 ?
+O2 Cs1 O6 144.55(8) . 4_676 ?
+O2 Cs1 O8 123.80(8) . 4_676 ?
+O2 Cs1 O9 53.21(8) . . ?
+O2 Cs1 O3 23.20(7) 3_576 3_576 ?
+O2 Cs1 O3 114.99(7) . 3_576 ?
+O2 Cs1 O2 91.98(8) . 3_576 ?
+O2 Cs1 O7 131.11(8) . 2 ?
+O2 Cs1 O7 113.15(8) . 4_676 ?
+O2 Cs1 O11 67.81(8) . 2 ?
+O2 Cs1 O11 58.81(9) . 4_576 ?
+O2 Cs1 O11 52.01(7) 3_576 2 ?
+O7 Cs1 V4 69.57(6) 4_676 4_676 ?
+O7 Cs1 V4 89.04(6) 2 4_676 ?
+O7 Cs1 V4 92.17(6) 4_676 . ?
+O7 Cs1 V4 148.53(6) 2 . ?
+O7 Cs1 O8 102.34(8) 2 4_676 ?
+O7 Cs1 O3 125.23(7) 4_676 3_576 ?
+O7 Cs1 O3 45.51(7) 2 3_576 ?
+O7 Cs1 O2 62.76(8) 2 3_576 ?
+O7 Cs1 O2 145.71(7) 4_676 3_576 ?
+O7 Cs1 O7 82.97(8) 2 4_676 ?
+O7 Cs1 O11 63.68(9) 2 2 ?
+O7 Cs1 O11 115.05(7) 4_676 2 ?
+O11 Cs1 V4 94.84(6) 4_576 4_676 ?
+O11 Cs1 V4 66.93(6) 4_576 . ?
+O11 Cs1 V4 91.08(6) 2 . ?
+O11 Cs1 V4 150.37(6) 2 4_676 ?
+O11 Cs1 O8 102.86(8) 4_576 4_676 ?
+O11 Cs1 O3 63.78(7) 2 3_576 ?
+O11 Cs1 O3 84.32(7) 4_576 3_576 ?
+O11 Cs1 O2 68.12(8) 4_576 3_576 ?
+O11 Cs1 O7 144.69(8) 4_576 4_676 ?
+O11 Cs1 O7 129.68(8) 4_576 2 ?
+O11 Cs1 O11 94.34(7) 4_576 2 ?
+O4 Cs2 O4 98.22(7) 3_576 1_556 ?
+O4 Cs2 O5 129.46(8) 3_576 4_676 ?
+O4 Cs2 O8 109.41(7) 3_576 1_556 ?
+O4 Cs2 O9 91.46(7) 1_556 4_576 ?
+O4 Cs2 O9 103.47(7) 3_576 4_576 ?
+O4 Cs2 O1 86.46(7) 3_576 4_576 ?
+O4 Cs2 O1 112.68(7) 1_556 4_576 ?
+O4 Cs2 O10 70.93(7) 3_576 1_556 ?
+O4 Cs2 O10 67.89(7) 1_556 3_576 ?
+O4 Cs2 O10 62.07(8) 3_576 3_576 ?
+O4 Cs2 O11 145.74(7) 1_556 4_576 ?
+O4 Cs2 O11 106.23(8) 3_576 4_576 ?
+O5 Cs2 O4 75.98(7) 4_676 1_556 ?
+O5 Cs2 O8 86.89(7) 4_676 1_556 ?
+O5 Cs2 O9 126.56(6) 4_676 4_576 ?
+O5 Cs2 O1 142.73(7) 4_676 4_576 ?
+O5 Cs2 O10 69.69(7) 4_676 3_576 ?
+O5 Cs2 O10 135.76(7) 4_676 1_556 ?
+O5 Cs2 O11 104.75(7) 4_676 4_576 ?
+O6 Cs2 O4 125.52(8) 4_676 3_576 ?
+O6 Cs2 O4 102.56(8) 4_676 1_556 ?
+O6 Cs2 O5 26.58(8) 4_676 4_676 ?
+O6 Cs2 O8 110.92(8) 4_676 1_556 ?
+O6 Cs2 O9 125.43(8) 4_676 4_576 ?
+O6 Cs2 O1 128.11(8) 4_676 4_576 ?
+O6 Cs2 O3 74.75(8) 4_676 3_576 ?
+O6 Cs2 O2 86.48(8) 4_676 3_576 ?
+O6 Cs2 O10 160.20(8) 4_676 1_556 ?
+O6 Cs2 O10 80.39(8) 4_676 3_576 ?
+O6 Cs2 O11 82.50(8) 4_676 4_576 ?
+O8 Cs2 O4 25.68(7) 1_556 1_556 ?
+O8 Cs2 O9 66.64(7) 1_556 4_576 ?
+O8 Cs2 O1 89.82(7) 1_556 4_576 ?
+O8 Cs2 O10 93.43(7) 1_556 3_576 ?
+O8 Cs2 O11 120.79(7) 1_556 4_576 ?
+O1 Cs2 O9 25.34(7) 4_576 4_576 ?
+O3 Cs2 O4 51.95(7) 3_576 3_576 ?
+O3 Cs2 O4 123.26(8) 3_576 1_556 ?
+O3 Cs2 O5 88.96(7) 3_576 4_676 ?
+O3 Cs2 O8 148.04(8) 3_576 1_556 ?
+O3 Cs2 O9 137.11(8) 3_576 4_576 ?
+O3 Cs2 O1 111.78(8) 3_576 4_576 ?
+O3 Cs2 O2 27.53(8) 3_576 3_576 ?
+O3 Cs2 O10 122.85(7) 3_576 1_556 ?
+O3 Cs2 O10 55.65(8) 3_576 3_576 ?
+O3 Cs2 O11 90.89(8) 3_576 4_576 ?
+O2 Cs2 O4 145.90(7) 3_576 1_556 ?
+O2 Cs2 O4 52.14(7) 3_576 3_576 ?
+O2 Cs2 O5 108.25(8) 3_576 4_676 ?
+O2 Cs2 O8 161.00(7) 3_576 1_556 ?
+O2 Cs2 O9 110.11(8) 3_576 4_576 ?
+O2 Cs2 O1 84.86(8) 3_576 4_576 ?
+O2 Cs2 O10 81.67(8) 3_576 3_576 ?
+O2 Cs2 O10 113.32(8) 3_576 1_556 ?
+O2 Cs2 O11 67.43(8) 3_576 4_576 ?
+O10 Cs2 O4 61.22(7) 1_556 1_556 ?
+O10 Cs2 O8 49.50(7) 1_556 1_556 ?
+O10 Cs2 O9 49.51(7) 1_556 4_576 ?
+O10 Cs2 O9 151.04(7) 3_576 4_576 ?
+O10 Cs2 O1 57.54(7) 1_556 4_576 ?
+O10 Cs2 O1 147.58(7) 3_576 4_576 ?
+O10 Cs2 O10 101.65(7) 1_556 3_576 ?
+O10 Cs2 O11 104.54(7) 1_556 4_576 ?
+O11 Cs2 O9 60.02(7) 4_576 4_576 ?
+O11 Cs2 O1 47.18(7) 4_576 4_576 ?
+O11 Cs2 O10 145.41(7) 4_576 3_576 ?
+O4 Cs3 V4 116.41(5) 4_576 3_566 ?
+O4 Cs3 O5 129.76(8) 4_576 3_566 ?
+O4 Cs3 O5 74.17(7) 4_576 . ?
+O4 Cs3 O6 142.04(7) 4_576 3_566 ?
+O4 Cs3 O9 49.36(7) 4_576 4_576 ?
+O4 Cs3 O1 91.17(7) 4_576 3_566 ?
+O4 Cs3 O3 147.10(7) 4_576 4_676 ?
+O4 Cs3 O10 73.45(8) 4_576 2_445 ?
+O4 Cs3 O7 113.63(8) 4_576 1_556 ?
+O4 Cs3 O11 66.88(7) 4_576 4_576 ?
+O5 Cs3 V4 124.62(5) . 3_566 ?
+O5 Cs3 V4 26.55(5) 3_566 3_566 ?
+O5 Cs3 O5 102.77(6) 3_566 . ?
+O5 Cs3 O9 148.75(7) 3_566 4_576 ?
+O5 Cs3 O1 51.34(7) 3_566 3_566 ?
+O5 Cs3 O3 83.04(7) 3_566 4_676 ?
+O5 Cs3 O11 149.80(7) 3_566 4_576 ?
+O6 Cs3 V4 26.24(5) 3_566 3_566 ?
+O6 Cs3 O5 125.80(7) 3_566 . ?
+O6 Cs3 O5 26.97(8) 3_566 3_566 ?
+O6 Cs3 O9 128.58(8) 3_566 4_576 ?
+O6 Cs3 O1 50.90(7) 3_566 3_566 ?
+O6 Cs3 O3 65.96(7) 3_566 4_676 ?
+O6 Cs3 O11 150.80(8) 3_566 4_576 ?
+O9 Cs3 V4 122.30(5) 4_576 3_566 ?
+O9 Cs3 O5 105.57(7) 4_576 . ?
+O9 Cs3 O3 102.33(7) 4_576 4_676 ?
+O1 Cs3 V4 26.89(5) 3_566 3_566 ?
+O1 Cs3 O5 129.44(7) 3_566 . ?
+O1 Cs3 O9 99.43(6) 3_566 4_576 ?
+O1 Cs3 O3 112.52(8) 3_566 4_676 ?
+O1 Cs3 O11 156.90(7) 3_566 4_576 ?
+O3 Cs3 V4 92.01(5) 4_676 3_566 ?
+O3 Cs3 O5 104.12(7) 4_676 . ?
+O10 Cs3 V4 64.69(6) 2_445 3_566 ?
+O10 Cs3 V4 100.78(6) 4_676 3_566 ?
+O10 Cs3 O4 128.87(8) 4_676 4_576 ?
+O10 Cs3 O5 59.98(8) 2_445 3_566 ?
+O10 Cs3 O5 55.61(7) 4_676 . ?
+O10 Cs3 O5 75.33(8) 4_676 3_566 ?
+O10 Cs3 O5 68.21(7) 2_445 . ?
+O10 Cs3 O6 84.58(8) 2_445 3_566 ?
+O10 Cs3 O6 82.47(8) 4_676 3_566 ?
+O10 Cs3 O9 120.12(7) 2_445 4_576 ?
+O10 Cs3 O9 132.57(7) 4_676 4_576 ?
+O10 Cs3 O1 126.67(8) 4_676 3_566 ?
+O10 Cs3 O1 61.23(8) 2_445 3_566 ?
+O10 Cs3 O3 53.59(7) 4_676 4_676 ?
+O10 Cs3 O3 137.50(7) 2_445 4_676 ?
+O10 Cs3 O10 94.40(7) 4_676 2_445 ?
+O10 Cs3 O7 100.38(8) 4_676 1_556 ?
+O10 Cs3 O11 115.50(8) 2_445 4_576 ?
+O10 Cs3 O11 75.36(8) 4_676 4_576 ?
+O7 Cs3 V4 88.61(5) 1_556 3_566 ?
+O7 Cs3 O5 100.45(8) 1_556 3_566 ?
+O7 Cs3 O5 139.80(7) 1_556 . ?
+O7 Cs3 O6 73.56(8) 1_556 3_566 ?
+O7 Cs3 O9 64.98(7) 1_556 4_576 ?
+O7 Cs3 O1 90.59(8) 1_556 3_566 ?
+O7 Cs3 O3 47.13(7) 1_556 4_676 ?
+O7 Cs3 O10 151.56(7) 1_556 2_445 ?
+O7 Cs3 O11 91.82(8) 1_556 4_576 ?
+O11 Cs3 V4 176.13(5) 4_576 3_566 ?
+O11 Cs3 O5 53.47(7) 4_576 . ?
+O11 Cs3 O9 61.23(7) 4_576 4_576 ?
+O11 Cs3 O3 85.47(8) 4_576 4_676 ?
+Cs1 V4 Cs1 173.295(18) . 4_575 ?
+Cs1 V4 Cs2 77.127(11) . 3_576 ?
+Cs1 V4 Cs3 103.203(15) . 3_566 ?
+Cs2 V4 Cs1 106.628(16) 3_576 4_575 ?
+Cs2 V4 Cs3 179.67(2) 3_576 3_566 ?
+Cs3 V4 Cs1 73.048(11) 3_566 4_575 ?
+O4 V4 Cs1 96.20(9) . . ?
+O4 V4 Cs1 90.38(9) . 4_575 ?
+O4 V4 Cs2 47.85(8) . 3_576 ?
+O4 V4 Cs3 132.00(8) . 3_566 ?
+O4 V4 O8 44.65(12) . . ?
+O4 V4 O9 89.81(13) . . ?
+O4 V4 O1 89.56(12) . . ?
+O4 V4 O3 89.56(12) . . ?
+O5 V4 Cs1 87.88(10) . 4_575 ?
+O5 V4 Cs1 85.54(10) . . ?
+O5 V4 Cs2 132.85(9) . 3_576 ?
+O5 V4 Cs3 47.29(8) . 3_566 ?
+O5 V4 O4 178.26(12) . . ?
+O5 V4 O8 133.61(13) . . ?
+O5 V4 O9 91.41(13) . . ?
+O5 V4 O1 90.41(12) . . ?
+O5 V4 O3 90.50(12) . . ?
+O5 V4 O2 90.50(13) . . ?
+O6 V4 Cs1 130.82(10) . . ?
+O6 V4 Cs1 42.62(10) . 4_575 ?
+O6 V4 Cs2 132.67(10) . 3_576 ?
+O6 V4 Cs3 47.13(10) . 3_566 ?
+O6 V4 O4 132.98(14) . . ?
+O6 V4 O5 45.28(14) . . ?
+O6 V4 O8 88.36(13) . . ?
+O6 V4 O9 121.17(13) . . ?
+O6 V4 O1 89.96(13) . . ?
+O6 V4 O3 91.42(13) . . ?
+O6 V4 O2 121.40(14) . . ?
+O8 V4 Cs1 140.80(8) . . ?
+O8 V4 Cs1 45.74(8) . 4_575 ?
+O8 V4 Cs2 73.37(8) . 3_576 ?
+O8 V4 Cs3 106.31(8) . 3_566 ?
+O9 V4 Cs1 136.41(8) . 4_575 ?
+O9 V4 Cs1 45.24(8) . . ?
+O9 V4 Cs2 105.46(8) . 3_576 ?
+O9 V4 Cs3 74.79(8) . 3_566 ?
+O9 V4 O8 120.88(13) . . ?
+O9 V4 O1 45.25(12) . . ?
+O9 V4 O3 133.67(13) . . ?
+O1 V4 Cs1 90.17(10) . . ?
+O1 V4 Cs1 91.16(10) . 4_575 ?
+O1 V4 Cs2 132.44(8) . 3_576 ?
+O1 V4 Cs3 47.59(8) . 3_566 ?
+O1 V4 O8 91.06(13) . . ?
+O3 V4 Cs1 89.91(10) . 4_575 ?
+O3 V4 Cs1 88.86(10) . . ?
+O3 V4 Cs2 46.33(9) . 3_576 ?
+O3 V4 Cs3 133.64(9) . 3_566 ?
+O3 V4 O8 89.07(13) . . ?
+O3 V4 O1 178.61(12) . . ?
+O2 V4 Cs1 134.82(10) . 4_575 ?
+O2 V4 Cs1 44.12(10) . . ?
+O2 V4 Cs2 47.48(9) . 3_576 ?
+O2 V4 Cs3 132.80(10) . 3_566 ?
+O2 V4 O4 90.77(12) . . ?
+O2 V4 O8 119.87(13) . . ?
+O2 V4 O9 88.76(13) . . ?
+O2 V4 O1 134.01(14) . . ?
+O2 V4 O3 44.94(13) . . ?
+Cs2 O4 Cs2 81.78(7) 3_576 1_554 ?
+Cs3 O4 Cs2 92.34(7) 4_675 3_576 ?
+Cs3 O4 Cs2 98.91(7) 4_675 1_554 ?
+V4 O4 Cs2 104.96(11) . 3_576 ?
+V4 O4 Cs2 144.04(13) . 1_554 ?
+V4 O4 Cs3 115.74(13) . 4_675 ?
+O8 O4 Cs2 115.20(19) . 3_576 ?
+O8 O4 Cs2 77.16(17) . 1_554 ?
+O8 O4 Cs3 150.88(19) . 4_675 ?
+O8 O4 V4 67.96(15) . . ?
+Cs2 O5 Cs3 89.61(6) 4_575 . ?
+Cs3 O5 Cs2 94.02(7) 3_566 4_575 ?
+Cs3 O5 Cs3 77.23(6) 3_566 . ?
+V4 O5 Cs2 120.30(14) . 4_575 ?
+V4 O5 Cs3 149.01(14) . . ?
+V4 O5 Cs3 106.15(11) . 3_566 ?
+O6 O5 Cs2 64.55(15) . 4_575 ?
+O6 O5 Cs3 141.27(18) . . ?
+O6 O5 Cs3 76.49(16) . 3_566 ?
+O6 O5 V4 66.78(16) . . ?
+Cs1 O6 Cs3 105.39(9) 4_575 3_566 ?
+Cs2 O6 Cs1 89.69(9) 4_575 4_575 ?
+Cs2 O6 Cs3 100.62(8) 4_575 3_566 ?
+V4 O6 Cs1 112.22(13) . 4_575 ?
+V4 O6 Cs2 138.18(14) . 4_575 ?
+V4 O6 Cs3 106.63(13) . 3_566 ?
+O5 O6 Cs1 177.8(2) . 4_575 ?
+O5 O6 Cs2 88.87(17) . 4_575 ?
+O5 O6 Cs3 76.54(17) . 3_566 ?
+O5 O6 V4 67.95(16) . . ?
+Cs1 O8 Cs2 107.74(9) 4_575 1_554 ?
+V4 O8 Cs1 107.80(11) . 4_575 ?
+V4 O8 Cs2 143.50(12) . 1_554 ?
+O4 O8 Cs1 175.1(2) . 4_575 ?
+O4 O8 Cs2 77.16(16) . 1_554 ?
+O4 O8 V4 67.40(17) . . ?
+Cs1 O9 Cs2 107.29(9) . 4_675 ?
+Cs1 O9 Cs3 85.44(6) . 4_675 ?
+Cs2 O9 Cs3 87.78(7) 4_675 4_675 ?
+V4 O9 Cs1 107.87(11) . . ?
+V4 O9 Cs2 143.69(12) . 4_675 ?
+V4 O9 Cs3 103.75(11) . 4_675 ?
+O1 O9 Cs1 170.76(19) . . ?
+O1 O9 Cs2 76.41(15) . 4_675 ?
+O1 O9 Cs3 103.31(17) . 4_675 ?
+O1 O9 V4 67.48(17) . . ?
+Cs3 O1 Cs2 86.64(7) 3_566 4_675 ?
+V4 O1 Cs2 145.31(14) . 4_675 ?
+V4 O1 Cs3 105.51(11) . 3_566 ?
+O9 O1 Cs2 78.25(17) . 4_675 ?
+O9 O1 Cs3 117.60(18) . 3_566 ?
+O9 O1 V4 67.27(15) . . ?
+Cs2 O3 Cs1 75.92(6) 3_576 3_576 ?
+Cs2 O3 Cs3 89.97(7) 3_576 4_575 ?
+Cs3 O3 Cs1 84.57(6) 4_575 3_576 ?
+V4 O3 Cs1 129.00(13) . 3_576 ?
+V4 O3 Cs2 106.68(11) . 3_576 ?
+V4 O3 Cs3 144.83(13) . 4_575 ?
+O2 O3 Cs1 63.56(15) . 3_576 ?
+O2 O3 Cs2 77.68(16) . 3_576 ?
+O2 O3 Cs3 147.67(18) . 4_575 ?
+O2 O3 V4 67.39(16) . . ?
+Cs1 O2 Cs1 88.02(7) . 3_576 ?
+Cs1 O2 Cs2 112.20(9) . 3_576 ?
+Cs2 O2 Cs1 81.47(7) 3_576 3_576 ?
+V4 O2 Cs1 156.36(14) . 3_576 ?
+V4 O2 Cs1 109.27(13) . . ?
+V4 O2 Cs2 105.41(12) . 3_576 ?
+O3 O2 Cs1 93.25(17) . 3_576 ?
+O3 O2 Cs1 173.0(2) . . ?
+O3 O2 Cs2 74.79(17) . 3_576 ?
+O3 O2 V4 67.68(16) . . ?
+Cs2 O10 Cs2 78.35(7) 1_554 3_576 ?
+Cs3 O10 Cs2 88.17(7) 2_455 1_554 ?
+Cs3 O10 Cs2 169.28(11) 4_575 1_554 ?
+Cs3 O10 Cs2 93.64(7) 4_575 3_576 ?
+Cs3 O10 Cs2 96.19(8) 2_455 3_576 ?
+Cs3 O10 Cs3 85.60(7) 4_575 2_455 ?
+Cs1 O7 Cs1 97.02(8) 2_545 4_575 ?
+Cs1 O7 Cs2 101.59(8) 4_575 1_554 ?
+Cs1 O7 Cs2 155.85(11) 2_545 1_554 ?
+Cs1 O7 Cs3 104.73(8) 2_545 1_554 ?
+Cs3 O7 Cs1 86.29(8) 1_554 4_575 ?
+Cs3 O7 Cs2 91.78(8) 1_554 1_554 ?
+Cs1 O11 Cs1 85.66(7) 4_675 2_545 ?
+Cs1 O11 Cs2 82.22(8) 4_675 4_675 ?
+Cs1 O11 Cs3 113.77(10) 4_675 4_675 ?
+Cs2 O11 Cs1 96.79(8) 4_675 2_545 ?
+Cs3 O11 Cs1 159.84(11) 4_675 2_545 ?
+Cs3 O11 Cs2 91.39(8) 4_675 4_675 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Cs1 V4 4.0659(7) . ?
+Cs1 V4 4.1430(7) 4_676 ?
+Cs1 O6 3.031(3) 4_676 ?
+Cs1 O8 3.116(3) 4_676 ?
+Cs1 O9 3.033(3) . ?
+Cs1 O3 3.743(3) 3_576 ?
+Cs1 O2 2.998(3) . ?
+Cs1 O2 3.357(3) 3_576 ?
+Cs1 O7 3.262(3) 4_676 ?
+Cs1 O7 3.076(3) 2 ?
+Cs1 O11 3.063(3) 4_576 ?
+Cs1 O11 3.431(3) 2 ?
+Cs2 O4 3.132(3) 3_576 ?
+Cs2 O4 3.307(3) 1_556 ?
+Cs2 O5 3.287(3) 4_676 ?
+Cs2 O6 2.968(3) 4_676 ?
+Cs2 O8 3.307(3) 1_556 ?
+Cs2 O9 3.404(3) 4_576 ?
+Cs2 O1 3.380(3) 4_576 ?
+Cs2 O3 3.082(3) 3_576 ?
+Cs2 O2 3.121(3) 3_576 ?
+Cs2 O10 3.298(3) 1_556 ?
+Cs2 O10 3.378(3) 3_576 ?
+Cs2 O11 3.362(3) 4_576 ?
+Cs3 V4 4.1226(6) 3_566 ?
+Cs3 O4 3.090(3) 4_576 ?
+Cs3 O5 3.606(3) . ?
+Cs3 O5 3.154(3) 3_566 ?
+Cs3 O6 3.153(3) 3_566 ?
+Cs3 O9 3.405(3) 4_576 ?
+Cs3 O1 3.159(3) 3_566 ?
+Cs3 O3 3.566(3) 4_676 ?
+Cs3 O10 3.153(3) 2_445 ?
+Cs3 O10 3.078(3) 4_676 ?
+Cs3 O7 3.136(3) 1_556 ?
+Cs3 O11 3.233(3) 4_576 ?
+V4 O4 1.931(3) . ?
+V4 O5 1.919(3) . ?
+V4 O6 1.902(3) . ?
+V4 O8 1.939(3) . ?
+V4 O9 1.932(3) . ?
+V4 O1 1.935(3) . ?
+V4 O3 1.934(3) . ?
+V4 O2 1.930(3) . ?
+O4 O8 1.470(4) . ?
+O5 O6 1.471(5) . ?
+O9 O1 1.488(4) . ?
+O3 O2 1.477(4) . ?
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion_publ_flag
+Cs1 O3 O2 Cs2 -80.24(7) 3_576 . . 3_576 ?
+Cs1 O3 O2 V4 165.60(12) 3_576 . . . ?
+Cs2 O4 O8 Cs2 74.37(12) 3_576 . . 1_554 ?
+Cs2 O4 O8 V4 -96.74(14) 3_576 . . . ?
+Cs2 O4 O8 V4 -171.11(10) 1_554 . . . ?
+Cs2 O5 O6 Cs3 -101.20(7) 4_575 . . 3_566 ?
+Cs2 O5 O6 V4 144.31(12) 4_575 . . . ?
+Cs2 O9 O1 Cs3 79.84(14) 4_675 . . 3_566 ?
+Cs2 O9 O1 V4 176.06(10) 4_675 . . . ?
+Cs2 O3 O2 Cs1 80.24(7) 3_576 . . 3_576 ?
+Cs2 O3 O2 V4 -114.16(9) 3_576 . . . ?
+Cs3 O4 O8 Cs2 -85.2(4) 4_675 . . 1_554 ?
+Cs3 O4 O8 V4 103.6(4) 4_675 . . . ?
+Cs3 O5 O6 Cs2 101.20(7) 3_566 . . 4_575 ?
+Cs3 O5 O6 Cs2 52.7(3) . . . 4_575 ?
+Cs3 O5 O6 Cs3 -48.5(3) . . . 3_566 ?
+Cs3 O5 O6 V4 -163.0(3) . . . . ?
+Cs3 O5 O6 V4 -114.48(10) 3_566 . . . ?
+Cs3 O9 O1 Cs2 84.37(9) 4_675 . . 4_675 ?
+Cs3 O9 O1 Cs3 164.21(10) 4_675 . . 3_566 ?
+Cs3 O9 O1 V4 -99.57(11) 4_675 . . . ?
+Cs3 O3 O2 Cs1 10.5(4) 4_575 . . 3_576 ?
+Cs3 O3 O2 Cs2 -69.7(3) 4_575 . . 3_576 ?
+Cs3 O3 O2 V4 176.1(3) 4_575 . . . ?
+V4 O4 O8 Cs2 171.11(10) . . . 1_554 ?
+V4 O5 O6 Cs2 -144.31(12) . . . 4_575 ?
+V4 O5 O6 Cs3 114.48(10) . . . 3_566 ?
+V4 O9 O1 Cs2 -176.06(10) . . . 4_675 ?
+V4 O9 O1 Cs3 -96.21(15) . . . 3_566 ?
+V4 O3 O2 Cs1 -165.60(12) . . . 3_576 ?
+V4 O3 O2 Cs2 114.16(9) . . . 3_576 ?

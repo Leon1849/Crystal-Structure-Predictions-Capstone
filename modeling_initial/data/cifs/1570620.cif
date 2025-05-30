@@ -1,0 +1,315 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-02-04 13:30:41 +0200 (Sun, 04 Feb 2024) $
+#$Revision: 289411 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/57/06/1570620.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1570620
+loop_
+_publ_author_name
+'Shiraishi, Kyoko'
+'Otsubo, Kazuya'
+'Kato, Kenichi'
+'Sadakiyo, Masaaki'
+_publ_section_title
+;
+ A novel threefold interpenetrated zirconium metal-organic framework
+ exhibiting separation ability for strong acids.
+;
+_journal_issue                   4
+_journal_name_full               'Chemical science'
+_journal_page_first              1441
+_journal_page_last               1448
+_journal_paper_doi               10.1039/d3sc04171a
+_journal_volume                  15
+_journal_year                    2024
+_chemical_formula_moiety         'C60.33 H36.33 O64.66 Zr12'
+_chemical_formula_sum            'C60.33 H36.33 O64.66 Zr12'
+_chemical_formula_weight         2890.433
+_chemical_name_common            Zr-BPT
+_space_group_crystal_system      trigonal
+_space_group_IT_number           162
+_space_group_name_Hall           '-P 3 2'
+_space_group_name_H-M_alt        'P -3 1 m'
+_audit_update_record
+;
+2023-06-20 deposited with the CCDC.	2023-12-14 downloaded from the CCDC.
+;
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   26.659(1)
+_cell_length_b                   26.659(1)
+_cell_length_c                   10.1030(4)
+_cell_measurement_temperature    298(2)
+_cell_volume                     6218.3(4)
+_computing_cell_refinement       'RIETAN-FP (Izumi and Momma, 2007)'
+_computing_molecular_graphics    'VESTA (Momma and Izumi, 2008)'
+_computing_structure_refinement  'RIETAN-FP (Izumi and Momma, 2007)'
+_diffrn_ambient_temperature      298(2)
+_diffrn_detector                 'gapless MYTHEN-modular detector'
+_diffrn_detector_type            'Photon Counting'
+_diffrn_measurement_device_type  Debye-Scherrer
+_diffrn_radiation_monochromator  Si(111)
+_diffrn_radiation_type           'synchrotron radiation'
+_diffrn_radiation_wavelength     0.800100
+_diffrn_source                   'SPring-8, BL44B2'
+_exptl_absorpt_coefficient_mu    1.418
+_exptl_crystal_colour            white
+_exptl_crystal_density_diffrn    1.5438
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       powder
+_exptl_crystal_F_000             2791.18
+_pd_calc_method                  'Rietveld Refinement'
+_pd_instr_location               ' ?'
+_pd_meas_2theta_range_inc        0.0100
+_pd_meas_2theta_range_max        70.0005
+_pd_meas_2theta_range_min        0.9928
+_pd_meas_number_of_points        6929
+_pd_meas_scan_method             step
+_pd_proc_2theta_range_inc        0.0099
+_pd_proc_2theta_range_max        40.0034
+_pd_proc_2theta_range_min        0.9928
+_pd_proc_ls_background_function  'Legendre polynomials'
+_pd_proc_ls_pref_orient_corr     ' ?'
+_pd_proc_ls_profile_function     'split pseudo-Voigt function'
+_pd_proc_ls_prof_R_factor        0.05173
+_pd_proc_ls_prof_wR_expected     0.02614
+_pd_proc_ls_prof_wR_factor       0.07370
+_pd_spec_mounting                ' ?'
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_refine_diff_density_max         0.0
+_refine_diff_density_min         0.0
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   2.8194
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     183
+_refine_ls_number_restraints     136
+_refine_ls_R_factor_all          0.02075
+_refine_ls_R_Fsqd_factor         0.02075
+_refine_ls_R_I_factor            0.04695
+_refine_ls_shift/su_max          0.0
+_refine_ls_weighting_details     1/<i>y</i>~i~
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            d3sc04171a2.cif
+_cod_data_source_block           Zr-BPT
+_cod_depositor_comments          'Adding full bibliography for 1570620.cif.'
+_cod_original_cell_volume        6218.1(5)
+_cod_database_code               1570620
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -y,x-y,z
+3 -x+y,-x,z
+4 -y,-x,-z
+5 -x+y,y,-z
+6 x,x-y,-z
+7 -x,-y,-z
+8 y,-x+y,-z
+9 x-y,x,-z
+10 y,x,z
+11 x-y,-y,z
+12 -x,-x+y,z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+Zr1 0.07483 0 0.62338 1 6 k Uiso 0.0038 Zr
+O1 0 0 0.70254 1 2 e Uiso 0.0076 O
+O2 0.07508 0.07508 0.5781 1 6 k Uiso 0.0076 O
+Zr2 0.5 0.08261 0.83872 1 12 l Uiso 0.0038 Zr
+Zr3 0.57943 0 0.83872 1 6 k Uiso 0.0038 Zr
+O3 0.57854 0.07353 0.93362 1 12 l Uiso 0.0076 O
+O4 0.422 0 0.93362 1 6 k Uiso 0.0076 O
+O5 0.5 0 0.78894 1 6 k Uiso 0.0076 O
+O6 0.17134 0.05685 0.58924 1 12 l Uiso 0.01013 O
+C1 0.20001 0.10001 0.5 1 6 j Uiso 0.01013 C
+C2 0.26731 0.13366 0.5 1 6 j Uiso 0.01013 C
+C3 0.29997 0.12863 0.61466 1 12 l Uiso 0.01013 C
+H1 0.27743 0.10043 0.69299 1 12 l Uiso 0.01216 H
+C4 0.36409 0.15939 0.61172 1 12 l Uiso 0.01013 C
+H2 0.38713 0.153 0.68821 1 12 l Uiso 0.01216 H
+C5 0.39568 0.19785 0.5 1 6 j Uiso 0.01013 C
+C6 0.44916 0.22458 0.5 1 6 j Uiso 0.01013 C
+C7 0.4806 0.19968 0.56741 1 12 l Uiso 0.01013 C
+H3 0.45743 0.15885 0.6138 1 12 l Uiso 0.01216 H
+C8 0.54286 0.23137 0.57186 1 12 l Uiso 0.01013 C
+C9 0.57533 0.28759 0.5 1 6 j Uiso 0.01013 C
+H4 0.62119 0.31059 0.5 1 6 j Uiso 0.01216 H
+C10 0.5828 0.21022 0.64378 1 12 l Uiso 0.01013 C
+O7 0.55284 0.16133 0.71539 1 12 l Uiso 0.01013 O
+O8 0.6373 0.23956 0.65537 1 12 l Uiso 0.01013 O
+C11 0.09923 0.09923 0.87178 0.84 6 k Uiso 0.01013 C
+H5 0.11987 0.11987 0.96268 0.84 6 k Uiso 0.01216 H
+O9 0.1094 0.05953 0.81842 0.84 12 l Uiso 0.01013 O
+C12 0.41285 0 0.59525 0.51 6 k Uiso 0.01013 C
+H6 0.39894 0 0.5038 0.51 6 k Uiso 0.01216 H
+O10 0.45484 0.05155 0.65204 0.51 12 l Uiso 0.01013 O
+C13 0.4193 0.1473 0.86985 0.74 12 l Uiso 0.01013 C
+H7 0.37619 0.12741 0.88626 0.74 12 l Uiso 0.01216 H
+O11 0.44963 0.11958 0.90093 0.74 12 l Uiso 0.01013 O
+O12 0.44829 0.20229 0.79833 0.74 12 l Uiso 0.01013 O
+C14 0.60092 0.22801 0.89272 0.55 12 l Uiso 0.01013 C
+H8 0.64085 0.24434 0.93458 0.55 12 l Uiso 0.01216 H
+O13 0.56066 0.16995 0.90569 0.55 12 l Uiso 0.01013 O
+O14 0.58904 0.26292 0.80958 0.55 12 l Uiso 0.01013 O
+C15 0.69592 0.08794 0.65533 0.46 12 l Uiso 0.01013 C
+H9 0.72211 0.07083 0.64716 0.46 12 l Uiso 0.01216 H
+O15 0.6377 0.05243 0.68022 0.46 12 l Uiso 0.01013 O
+O16 0.71861 0.14735 0.64114 0.46 12 l Uiso 0.01013 O
+C16 0.71613 0.11762 0.91178 0.13 12 l Uiso 0.01013 C
+H10 0.74614 0.10802 0.9427 0.13 12 l Uiso 0.01216 H
+O17 0.66113 0.0729 0.87042 0.13 12 l Uiso 0.01013 O
+O18 0.72839 0.17556 0.91241 0.13 12 l Uiso 0.01013 O
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0043 0.0021 'International Tables for Crystallography, Vol. C'
+H H -0.0006 0.0000 'International Tables for Crystallography, Vol. C'
+O O 0.0142 0.0079 'International Tables for Crystallography, Vol. C'
+Zr Zr -1.5995 0.6989 'International Tables for Crystallography, Vol. C'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O2 Zr1 O2 77.2005(8) 6_556 . 1_555 ?
+O2 Zr1 O1 112.036(1) 6_556 . 1_555 ?
+O2 Zr1 O9 144.973(2) 6_556 . 1_555 ?
+O2 Zr1 O6 82.2237(2) 1_555 . 1_555 ?
+O1 Zr1 O9 75.208(1) 1_555 . 1_555 ?
+O1 Zr1 O6 143.1316(1) 1_555 . 1_555 ?
+O9 Zr1 O6 75.590(2) 1_555 . 1_555 ?
+Zr1 O1 Zr1 106.995(1) 1_555 . 2_555 ?
+Zr1 O2 Zr1 102.7985(8) 6_556 . 1_555 ?
+O10 Zr2 O11 94.336(2) 1_555 . 1_555 ?
+O10 Zr2 O5 72.8185(5) 1_555 . 1_555 ?
+O10 Zr2 O13 130.8111(1) 1_555 . 1_555 ?
+O10 Zr2 O7 80.927(3) 1_555 . 1_555 ?
+O10 Zr2 O3 130.4815(4) 1_555 . 1_555 ?
+O10 Zr2 O4 86.259(3) 1_555 . 1_555 ?
+O11 Zr2 O5 145.9070(1) 1_555 . 1_555 ?
+O11 Zr2 O13 73.4209(5) 1_555 . 1_555 ?
+O11 Zr2 O7 88.683(1) 1_555 . 1_555 ?
+O11 Zr2 O3 135.170(2) 1_555 . 1_555 ?
+O11 Zr2 O4 81.0932(7) 1_555 . 1_555 ?
+O5 Zr2 O13 138.6458(1) 1_555 . 1_555 ?
+O5 Zr2 O7 118.988(2) 1_555 . 1_555 ?
+O5 Zr2 O3 64.495(1) 1_555 . 1_555 ?
+O5 Zr2 O4 66.938(1) 1_555 . 1_555 ?
+O13 Zr2 O3 76.5071(7) 1_555 . 1_555 ?
+O13 Zr2 O4 135.466(2) 1_555 . 1_555 ?
+O7 Zr2 O3 98.288(1) 1_555 . 1_555 ?
+O7 Zr2 O4 162.96(1) 1_555 . 1_555 ?
+O3 Zr2 O4 98.573(1) 1_555 . 1_555 ?
+O5 Zr3 O17 126.5461(1) 1_555 . 1_555 ?
+O5 Zr3 O15 102.212(2) 1_555 . 1_555 ?
+O5 Zr3 O3 69.862(1) 1_555 . 1_555 ?
+O17 Zr3 O3 64.8393(2) 1_555 . 1_555 ?
+O15 Zr3 O3 94.054(2) 1_555 . 1_555 ?
+O3 Zr3 O3 101.457(2) 1_555 . 11_555 ?
+Zr3 O3 Zr2 108.202(2) 1_555 . 1_555 ?
+Zr2 O4 Zr2 108.621(2) 1_555 . 11_555 ?
+Zr3 O5 Zr2 115.0133(6) 1_555 . 1_555 ?
+Zr2 O5 Zr2 115.1928(5) 1_555 . 11_555 ?
+C1 O6 Zr1 129.6364(4) 1_555 . 1_555 ?
+O6 C1 O6 121.609(2) 1_555 . 6_556 ?
+O6 C1 C2 119.1940(9) 1_555 . 1_555 ?
+C3 C2 C3 119.415(2) 6_556 . 1_555 ?
+C3 C2 C1 120.294(1) 6_556 . 1_555 ?
+C4 C3 C2 119.837(1) 1_555 . 1_555 ?
+C5 C4 C3 120.034(1) 1_555 . 1_555 ?
+C6 C5 C4 119.663(1) 1_555 . 1_555 ?
+C4 C5 C4 120.658(2) 6_556 . 1_555 ?
+C7 C6 C7 120.8574(8) 1_555 . 6_556 ?
+C8 C7 C6 120.0047(3) 1_555 . 1_555 ?
+C7 C8 C9 119.60(1) 1_555 . 1_555 ?
+C7 C8 C10 125.5090(4) 1_555 . 1_555 ?
+C9 C8 C10 114.83(1) 1_555 . 1_555 ?
+C8 C9 C8 119.7290(9) 1_555 . 6_556 ?
+O8 C10 O7 119.341(1) 1_555 . 1_555 ?
+O8 C10 C8 125.6531(2) 1_555 . 1_555 ?
+O7 C10 C8 113.934(1) 1_555 . 1_555 ?
+C10 O7 Zr2 176.52(1) 1_555 . 1_555 ?
+O9 C11 O9 119.79(1) 1_555 . 10_555 ?
+C11 O9 Zr1 133.8748(4) 1_555 . 1_555 ?
+O10 C12 O10 117.775(2) 1_555 . 11_555 ?
+C12 O10 Zr2 139.1039(1) 1_555 . 1_555 ?
+O11 C13 O12 119.5520(3) 1_555 . 1_555 ?
+C13 O11 Zr2 149.365(2) 1_555 . 1_555 ?
+O13 C14 O14 119.6197(3) 1_555 . 1_555 ?
+C14 O13 Zr2 156.422(1) 1_555 . 1_555 ?
+O15 C15 O16 119.9955(1) 1_555 . 1_555 ?
+C15 O15 Zr3 140.4124(9) 1_555 . 1_555 ?
+O18 C16 O17 119.9913(2) 1_555 . 1_555 ?
+C16 O17 Zr3 170.5278(4) 1_555 . 1_555 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Zr1 O2 2.0356(1) . 6_556 ?
+Zr1 O2 2.0499(1) . 1_555 ?
+Zr1 O1 2.1492(1) . 1_555 ?
+Zr1 O6 2.2663(1) . 1_555 ?
+Zr1 O9 2.4058(1) . 1_555 ?
+Zr2 O11 2.1198(1) . 1_555 ?
+Zr2 O10 2.1668(1) . 1_555 ?
+Zr2 O13 2.1747(1) . 1_555 ?
+Zr2 O7 2.2327(1) . 1_555 ?
+Zr2 O5 2.2590(1) . 1_555 ?
+Zr2 O4 2.3481(1) . 1_555 ?
+Zr2 O3 2.4226(1) . 1_555 ?
+Zr3 O17 2.0954(1) . 1_555 ?
+Zr3 O5 2.1763(1) . 1_555 ?
+Zr3 O15 2.1817(1) . 1_555 ?
+Zr3 O3 2.1928(1) . 1_555 ?
+C1 O6 1.3570(1) . 1_555 ?
+C1 C2 1.5538(1) . 1_555 ?
+C2 C3 1.4949(1 . 1_555 ?
+C2 C1 1.5538(1) . 1_555 ?
+C3 C4 1.4810(1) . 1_555 ?
+C4 C5 1.4733(1) . 1_555 ?
+C5 C6 1.2347(1) . 1_555 ?
+C6 C7 1.4708(1) . 1_555 ?
+C7 C8 1.4382(1) . 1_555 ?
+C8 C9 1.4932(1) . 1_555 ?
+C8 C10 1.6062(1) . 1_555 ?
+C10 O8 1.2649(1) . 1_555 ?
+C10 O7 1.3487(1) . 1_555 ?
+C11 O9 1.3309(1) . 1_555 ?
+C12 O10 1.3901(1) . 1_555 ?
+C13 O11 1.3769(1) . 1_555 ?
+C13 O12 1.4613(1) . 1_555 ?
+C14 O13 1.3797(1) . 1_555 ?
+C14 O14 1.4024(1) . 1_555 ?
+C15 O15 1.3781(1) . 1_555 ?
+C15 O16 1.3917(1) . 1_555 ?
+C16 O18 1.4099(1) . 1_555 ?
+C16 O17 1.4134(1) . 1_555 ?
